@@ -1,0 +1,24 @@
+/*
+ * @Author: soong
+ * @Date: 2017-11-28 16:57:40
+ * @Last Modified by: soong
+ * @Last Modified time: 2017-11-28 16:58:05
+ */
+
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Optional
+// @import "node_modules/bootstrap/scss/reboot";
+// @import "node_modules/bootstrap/scss/type";
+// @import "node_modules/bootstrap/scss/images";
+// @import "node_modules/bootstrap/scss/code";
+// @import "node_modules/bootstrap/scss/grid";

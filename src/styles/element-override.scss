@@ -1,0 +1,30 @@
+@import 'vars.scss';
+
+
+// map common vars to element vars
+
+/* theme color */
+$--color-primary: $--color-primary;
+$--border-color-base: $--border-color;
+$--background-color-base: $--background-color;
+
+
+/* override */
+$--font-size-base: $--font-size;
+
+
+$--all-transition: $--all-transition;
+
+/* safe font*/
+$--font-family: $--font-family;
+
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import 'node_modules/element-ui/packages/theme-chalk/src/index';
+
+/* override or fix element ui styles*/
+// .el-submenu__title * {
+//     vertical-align: middle;
+//     display: inline;
+// }
