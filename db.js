@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient,
 
 const _ = require('lodash');
 
-
+// https://github.com/franksoong/node-mongodb-native
 const insertDocuments = function (db, callback) {
     // Get the documents collection
   const collection = db.collection('documents');
