@@ -44,7 +44,7 @@ module.exports = {
 
     "import/no-unresolved": "off",
 
-    "indent": ["error", 4],
+    "indent": ["error", 2],
 
     "func-names": "off",
     "no-console": "off",
